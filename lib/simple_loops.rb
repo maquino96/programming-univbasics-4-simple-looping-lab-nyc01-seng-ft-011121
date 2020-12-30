@@ -15,8 +15,6 @@ def output_array(array)
 end
 
 def return_string_array (array)
-  #new_array = []
   array.collect{|i| i.to_s} 
-  #new_array
 end
 
